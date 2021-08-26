@@ -75,11 +75,20 @@ html {
       /* flex-grow, flex-shrink, flex-basis */
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 360px) {
+      html{
+        width: 360px;
+        display: flex;
+        justify-content:center;
+        align-content: stretch;
+      }
+
       .cardGroup {
+        flex-grow: 1;
+        flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        max-width: 300px;
+        width: 320px;
+
       }
     }
