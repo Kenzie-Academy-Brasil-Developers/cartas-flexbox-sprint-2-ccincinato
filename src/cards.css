@@ -80,6 +80,6 @@ html {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-width: 161px;
+        max-width: 300px;
       }
     }
