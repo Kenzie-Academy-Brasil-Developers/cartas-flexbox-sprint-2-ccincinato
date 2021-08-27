@@ -6,6 +6,10 @@ div, html{
 }
 
 html {
+<<<<<<< HEAD
+=======
+    margin: 0;
+>>>>>>> 774ac7bf0e9d677f02fe90d72884f317ebb1dabe
     font-family: "Raleway", "Helvetica", sans-serif;
     font-weight: 400;
     color: #2F3442;
@@ -86,6 +90,7 @@ html {
     }
 
     @media (max-width: 360px) {
+<<<<<<< HEAD
 
       .cardGroup {
         margin: 0 auto;
@@ -101,5 +106,21 @@ html {
 
       .cardGroup__card{
         max-width: 320px;
+=======
+      html{
+        width: 360px;
+        display: flex;
+        justify-content:center;
+        align-content: stretch;
+      }
+
+      .cardGroup {
+        flex-grow: 1;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+
+>>>>>>> 774ac7bf0e9d677f02fe90d72884f317ebb1dabe
       }
     }
